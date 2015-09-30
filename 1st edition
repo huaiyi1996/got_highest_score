@@ -1,7 +1,7 @@
 highest_score = 0
 result_f = open("results.txt")#coding=utf-8 与该py文件同目录下
 for line in result_f:
-    if float(line) > highest_score:
+    if float(line) > highest_score:#coding=utf-8 比较失败，忽略了用户名的影响
         highest_score = float(line)
 result_f.close()
 print ("The highest score was:",highest_score)
