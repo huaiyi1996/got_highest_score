@@ -1,0 +1,7 @@
+john 8.65
+juan 9.12
+joseph 8.45
+stacey 7.81
+aideen 8.05
+zack 7.21
+aaron 8.31
