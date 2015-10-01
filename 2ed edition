@@ -5,4 +5,4 @@ for line in result_f:
     if float(score) > highest_score:
         highest_score = float(score)
 result_f.close()
-print ("The highest score was:",highest_score)
+print ("The highest score was:",highest_score) 
