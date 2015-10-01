@@ -1,0 +1,8 @@
+highest_score = 0
+result_f = open("results.txt")
+for line in result_f:
+    (name,score) = line.split()#coding=utf-8 采用split()函数分割字符串，提取有效信息
+    if float(score) > highest_score:
+        highest_score = float(score)
+result_f.close()
+print ("The highest score was:",highest_score)
