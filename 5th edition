@@ -1,0 +1,10 @@
+scores = {}#coding=utf-8 这里使用大括号 空hash（哈希，即字典）
+result_f = open("results.txt")
+for line in result_f:
+    (name,score) = line.split()
+    scores[score]=name
+result_f.close()
+
+print ("The top scores were:")
+for each_score in sorted(scores.keys(),reverse = True): #用sorted()函数对hashd的关键字进行排序，并反转
+    print('Surfer '+scores[each_score]+' scored '+each_score)
