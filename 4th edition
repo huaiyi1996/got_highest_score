@@ -8,3 +8,4 @@ result_f.close()
 print ("The top scores were:")
 for each_score in scores.keys():
     print('Surfer '+scores[each_score]+' scored '+each_score)
+#用hash把成绩和名字关联起来
